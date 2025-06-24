@@ -1,0 +1,28 @@
+# Виртуальное окружение
+.venv/
+venv/
+/env/
+
+# Папки с данными
+/data/
+/data_augmented/
+/data_split/
+
+# Крупные файлы моделей 
+/model/*.keras
+# /model/*.h5
+
+# Кэш и служебные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Другие системные файлы
+.DS_Store
+
+/output_videos/
